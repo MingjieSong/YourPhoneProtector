@@ -1,0 +1,47 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+table, th, td {
+  border: 1px solid black;
+  
+  
+}
+table{
+	margin-left: auto;
+  margin-right: auto;
+}
+
+body{
+  min-height: 1200px;
+  background: #555;
+}
+
+hr{
+	width:100%;
+	text-align:left;
+	margin-left:0 ; 
+}
+.content {
+  width: 80%;
+  margin: auto;
+  background: white;
+  padding: 10px;
+  text-align: center;
+  
+}
+
+.responsive {
+  max-width: 50%;
+  max-height: auto;
+ 
+}
+
+.content{
+	padding-top: 80px;
+}
